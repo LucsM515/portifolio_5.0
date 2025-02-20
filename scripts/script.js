@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const title = "Olá, meu nome é Lucas Matias";
+    const title = `Olá, meu nome é Lucas Matias.`;
     const paragraph = `Sou um Desenvolvedor front-end com experiência em criar interfaces responsivas e otimizadas.\n
     Tenho conhecimento em diversas tecnologias front-end e back-end, incluindo React, PHP, NodeJS e .NET.\n
     Gosto de ter foco em melhoria de UI/UX design e responsividade.\n
