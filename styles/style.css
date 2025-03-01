@@ -33,20 +33,19 @@ body{
     padding-top: 80px;
 }
 
-.head_page{
-    padding: 2% 0% 0% 15%;
+.head_page {
+    padding: 2% 0% 0% 18%;
     display: flex;
     gap: 80px;
-   
 }
 
-.head_page_link{
-    
+.head_page_link {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-quinaria);
     text-decoration: none;
+    font-size: 2rem;
 }
 
 .division_page{
@@ -77,6 +76,10 @@ img {
 }
 
 .footer_page{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     color: var(--cor-quaternaria);
     background-color: var(--cor-terciaria);
     padding: 24px;

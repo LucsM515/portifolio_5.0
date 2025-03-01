@@ -34,21 +34,19 @@ header {
     z-index: 1000; 
 }
 
-
-.head_page{
-    padding: 2% 0% 0% 15%;
+.head_page {
+    padding: 2% 0% 0% 18%;
     display: flex;
     gap: 80px;
-   
 }
 
-.head_page_link{
-    
+.head_page_link {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-quinaria);
     text-decoration: none;
+    font-size: 2rem;
 }
 
 .container {
@@ -144,6 +142,10 @@ p {
 }
 
 .footer_page{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     color: var(--cor-quaternaria);
     background-color: var(--cor-terciaria);
     padding: 24px;
@@ -151,12 +153,14 @@ p {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+    margin-top: 15px;
 }
 
 .footer_page a{
     color: var(--cor-quinaria);
     text-decoration: none;
 }
+
 
 @keyframes slideIn {
     from {
