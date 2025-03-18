@@ -26,3 +26,5 @@ document.addEventListener("DOMContentLoaded", function () {
         typeEffect(textElement, paragraph, 15);
     });
 });
+
+
