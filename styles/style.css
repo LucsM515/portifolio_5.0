@@ -6,6 +6,7 @@
     --cor-terciaria: #0B192C;
     --cor-quaternaria: #EEEEEE;
     --cor-quinaria: #FF6500;
+    --cor-senaria:#C14600;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -34,9 +35,9 @@ header {
 }
 
 .head_page {
-    padding: 2% 0% 0% 10%;
+    padding: 2% 0% 0% 8%;
     display: flex;
-    gap: 50px;
+    gap: 56px;
 }
 
 .head_page_link {
