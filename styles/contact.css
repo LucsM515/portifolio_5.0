@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #1E3E62;
+    --cor-terciaria: #0B192C;
+    --cor-quaternaria: #EEEEEE;
+    --cor-quinaria: #FF6500;
+    --cor-senaria:#C14600;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    padding-top: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    background-color: var(--cor-terciaria); 
+    padding: 20px 0;
+    z-index: 1000; 
+}
+
+.head_page {
+    padding: 2% 0% 0% 8%;
+    display: flex;
+    gap: 56px;
+}
+
+.head_page_link {
+    font-family: var(--fonte-secundaria);
+    font-size: 0.3rem;
+    font-weight: 600;
+    color: var(--cor-quinaria);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 80px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-quaternaria);
+    font-size: 1.5rem;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 50px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.05); 
+    border-left: 5px solid var(--cor-quinaria); 
+    border-radius: 10px;
+    padding: 20px;
+    width: 120px; 
+    height: 120px;
+    box-shadow: var(--cor-senaria);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column; 
+    margin-top: 50px;
+}
+
+section:hover {
+    transform: scale(1.05);
+    box-shadow: var(--cor-senaria);
+}
+
+.contatos img {
+    width: 80px;
+    height: auto;
+}
+
+.contatos a {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-quinaria);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.contatos a:hover {
+    color: var(--cor-senaria);
+}
+
+
+.footer_page{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: var(--cor-quaternaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.footer_page a{
+    color: var(--cor-quinaria);
+    text-decoration: none;
+}
