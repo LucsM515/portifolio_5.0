@@ -23,6 +23,7 @@ body{
     padding-top: 7rem;
 }
 
+
 header {
     position: fixed;
     top: 0;
@@ -34,31 +35,30 @@ header {
 }
 
 .head_page {
-    padding: 2% 0% 0% 18%;
+    padding: 2% 0% 0% 8%;
     display: flex;
-    gap: 80px;
+    gap: 56px;
 }
 
 .head_page_link {
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 0.3rem;
     font-weight: 600;
     color: var(--cor-quinaria);
     text-decoration: none;
     font-size: 2rem;
 }
 
-
 .certifications-container {
     text-align: center;
-    margin-top: 80px;
-    padding: 20px;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 .certifications-container h1{
-    color: var(--cor-quinaria);
+    color: var(--cor-quaternaria);
     font-family: var(--fonte-secundaria);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .certifications-grid {
