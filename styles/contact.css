@@ -96,10 +96,11 @@ section:hover {
     color: var(--cor-quinaria);
     text-decoration: none;
     transition: color 0.3s ease-in-out;
+    margin-top: 20px;
 }
 
 .contatos a:hover {
-    color: var(--cor-senaria);
+    color: var(--cor-quaternaria);
 }
 
 
