@@ -48,6 +48,7 @@ header {
     text-decoration: none;
     font-size: 2rem;
 }
+
 .container {
     display: flex;
     justify-content: center; 
@@ -148,12 +149,14 @@ p {
     color: var(--cor-quaternaria);
     background-color: var(--cor-terciaria);
     padding: 15px;
-    text-align: center;
-    font-family: var(--fonte-secundaria);
-    font-size: 0.9rem;
-    font-weight: 400;
 }
 
+.footer_page p{
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    font-weight: 400;
+}
 .footer_page a{
     color: var(--cor-quinaria);
     text-decoration: none;
