@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     sections.forEach((section, index) => {
         setTimeout(() => {
             section.classList.add("show");
-        }, index * 300); // Cada box aparece 300ms depois da anterior
+        }, index * 300);
     });
 });
