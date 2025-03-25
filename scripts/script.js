@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // animação de digitação...
+
     const title = `Olá, meu nome é Lucas Matias.`;
     const paragraph = `Sou um Desenvolvedor front-end com experiência em criar interfaces responsivas e otimizadas.\n
     Tenho conhecimento em diversas tecnologias front-end e back-end, incluindo React, PHP, NodeJS e .NET.\n
@@ -25,6 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
     typeEffect(titleElement, title, 25, function () {
         typeEffect(textElement, paragraph, 15);
     });
+
+    // MENU HAMBURGUER
+    const menuToggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+
+    menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
 });
-
-
