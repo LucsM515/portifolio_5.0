@@ -137,13 +137,6 @@ img {
         gap: 30px;
     }
 
-    .head_page {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        padding-left: 0;
-    }
-
     .head_page_link {
         font-size: 1.3rem;
     }
@@ -163,7 +156,20 @@ img {
     }
 
     .footer_page {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
+        position: relative;
+    }
+
+    .footer_page p{
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 0.5rem;
+        font-weight: 400;
+    }
+
+    .footer_page a{
+        color: var(--cor-quinaria);
+        text-decoration: none;
     }
     
     .menu-toggle {
@@ -171,12 +177,13 @@ img {
     }
 
     .head_page {
-        display: none;
         flex-direction: column;
         align-items: center;
+        gap: 10px;
+        padding-left: 0;
+        display: none;
         background-color: var(--cor-terciaria);
         padding: 10px 0;
-        gap: 15px;
     }
 
     .head_page.active {
@@ -203,7 +210,7 @@ img {
     }
 
     img {
-        width: 70%;
+        width: 50%;
     }
 
     section h1 {
