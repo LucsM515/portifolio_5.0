@@ -168,3 +168,135 @@ p {
     color: var(--cor-quinaria);
     text-decoration: none;
 }
+
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    color: var(--cor-quinaria);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+@media (max-width: 1024px) {
+    .head_page {
+        padding-left: 5%;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .head_page_link {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 30px;
+        gap: 30px;
+    }
+
+    section {
+        width: 300px;
+        height: auto;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .head_page {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-left: 0;
+        display: none;
+        background-color: var(--cor-terciaria);
+        padding: 10px 0;
+    }
+
+    .head_page.active {
+        display: flex;
+    }
+
+    .head_page_link {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    section {
+        width: 90%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .footer_page {
+        font-size: 0.5rem;
+        position: relative;
+    }
+
+    .footer_page p{
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 0.5rem;
+        font-weight: 400;
+    }
+
+    .footer_page a{
+        color: var(--cor-quinaria);
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .head_page {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .head_page_link {
+        font-size: 1.1rem;
+        padding: 5px;
+    }
+
+    .container {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    section {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    .footer_page {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}

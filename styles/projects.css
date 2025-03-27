@@ -284,6 +284,10 @@ header {
         padding: 20px 10px;
     }
 
+    .projects-container p{
+        text-align: center;
+    }
+
     .project-details {
         padding: 15px;
     }
