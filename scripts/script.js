@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         typeEffect(textElement, paragraph, 15);
     });
 
-    // MENU HAMBURGUER
+
     const menuToggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
 
