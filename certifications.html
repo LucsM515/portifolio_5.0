@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certificados</title>
     <link rel="stylesheet" href="styles/certifications.css">
 </head>
+
 <body>
     <header>
-        <div class="head_page">
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+
+        <div class="head_page" id="menu">
             <a class="head_page_link" href="index.html">Home</a>
             <a class="head_page_link" href="experience.html">Experiência</a>
             <a class="head_page_link" href="contact.html">Contatos</a>
@@ -18,7 +22,8 @@
         </div>
     </header>
 
-    <main class="certifications-container">
+
+    <main class="certifications-container" id="desktop-only">
         <h1>Minhas Certificações</h1>
         <div class="certifications-grid">
             <iframe src="certificado/Curso Angular 14_ aplique os conceitos e desenvolva seu primeiro CRUD.pdf" class="pdf-viewer"></iframe>
@@ -37,12 +42,94 @@
             <iframe src="certificado/INGLÊS - Certificado docx (1)_231220_225554.pdf" class="pdf-viewer"></iframe>
         </div>
     </main>
-    
+
+
+    <main class="certifications-mobile" id="mobile-only">
+        <h1>Minhas Certificações</h1>
+        <div class="certification-card">
+            <h3>Angular 14</h3>
+            <p><strong>Tecnologia:</strong> Angular</p>
+            <a href="certificado/Curso Angular 14_ aplique os conceitos e desenvolva seu primeiro CRUD.pdf"
+                target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>Angular</h3>
+            <p><strong>Tecnologia:</strong> Angular</p>
+            <a href="certificado/Curso Angular_ explorando o framework.pdf" target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>HTML/CSS</h3>
+            <p><strong>Tecnologia:</strong> HTML/CSS</p>
+            <a href="certificado/Curso HTML e CSS_ ambientes de desenvolvimento, estrutura de arquivos e tags.pdf" target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>HTML/CSS</h3>
+            <p><strong>Tecnologia:</strong> HTML/CSS</p>
+            <a href="certificado/Curso HTML e CSS_ cabeçalho, footer e variáveis CSS.pdf"
+                target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>HTML/CSS</h3>
+            <p><strong>Tecnologia:</strong> HTML/CSS</p>
+            <a href="certificado/Curso HTML e CSS_ Classes, posicionamento e Flexbox.pdf" target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>HTML/CSS</h3>
+            <p><strong>Tecnologia:</strong> HTML/CSS</p>
+            <a href="certificado/Curso HTML e CSS_ praticando HTML_CSS.pdf" target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>HTML/CSS</h3>
+            <p><strong>Tecnologia:</strong> HTML/CSS</p>
+            <a href="certificado/Curso HTML e CSS_ trabalhando com responsividade e publicação de projetos.pdf"
+                target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>HTML/CSS</h3>
+            <p><strong>Tecnologia:</strong> HTML5/CSS3/JS</p>
+            <a href="certificado/Curso HTML5 e CSS3 parte 1_ crie uma página da Web.pdf" target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>PHP</h3>
+            <p><strong>Tecnologia:</strong>PHP</p>
+            <a href="certificado/Curso PHP_ conceitos, lidando com dados, loops e mais.pdf" target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>PHP</h3>
+            <p><strong>Tecnologia:</strong>PHP</p>
+            <a href="certificado/Curso PHP_ manipulando coleções com Arrays.pdf"
+                target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>React</h3>
+            <p><strong>Tecnologia:</strong> React</p>
+            <a href="certificado/Curso React_ desenvolvendo com JavaScript.pdf" target="_blank">Ver Certificado</a>
+        </div>
+
+        <div class="certification-card">
+            <h3>Curso Inglês</h3>
+            <p><strong>Área:</strong>Lingustica</p>
+            <a href="certificado/INGLÊS - Certificado docx (1)_231220_225554.pdf" target="_blank">Ver Certificado</a>
+        </div>
+
+
+    </main>
+
     <footer class="footer_page">
         <p>Copyright©2025 <a href="index.html">Lucas Matias</a>. Todos os direitos reservados</p>
-
     </footer>
+
     <script src="scripts/certifications.js"></script>
-    
 </body>
+
 </html>
